@@ -17,11 +17,11 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <html lang="en">
         <body className={inter.className}>
-          <div>
-            {children}
-          </div>
-          <div className='max-sm:hidden'>
+          <div className='max-sm:hidden fixed w-16'>
             <SideBar />
+          </div>
+          <div className='sm:ml-20'>
+            {children}
           </div>
           <div className='sm:hidden'>
             <BottomBar />
