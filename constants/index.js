@@ -35,22 +35,22 @@ export const footerLinks = [
     {
         name: 'Contact',
         path: '/contact',
-        icon: ""
+        icon: "contact.svg"
     },
-    {
-        name: 'Privacy',
-        path: '/privacy',
-        icon: ""
-    },
-    {
-        name: 'Terms',
-        path: '/terms',
-        icon: ""
-    },
+    // {
+    //     name: 'Privacy',
+    //     path: '/privacy',
+    //     icon: ""
+    // },
+    // {
+    //     name: 'Terms',
+    //     path: '/terms',
+    //     icon: ""
+    // },
     {
         name: 'Help',
         path: '/help',
-        icon: ""
+        icon: "help.svg"
     },
     {
         name: "Facebook",
